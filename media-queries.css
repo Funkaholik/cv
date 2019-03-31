@@ -1,0 +1,91 @@
+@media only screen and (min-width: 2559px) {
+  body, html {
+    font-size: 125%;
+  }
+  .frames__wrapper__text {
+    font-size: 125%;
+    padding: 5% 15%;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .frames__wrapper {
+    padding: 0 5%;
+  }
+  .frames__wrapper__big-text {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .frames__wrapper {
+    padding: 0;
+  }
+  .frames__wrapper__big-text {
+    font-size: 50px;
+    padding-left: 2.5%;
+    -webkit-text-stroke-width: 1px;
+  }
+  .frames__wrapper__text {
+    font-size: 18px;
+    padding: 5% 10%;
+  }
+  .menu {
+    margin-right: 7%;
+  }
+  .frames__wrapper__skills:nth-child(-n+6) {
+    line-height: 30px;
+    font-size: 26px;
+    letter-spacing: 0.15em;
+    margin: 0;
+  }
+  .frames__wrapper__icons__links {
+    border: 3px solid #333;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  br {
+    line-height: 75px;
+  }
+  .frames__wrapper__big-text {
+    font-size: 50px;
+    padding: 15%;
+  }
+  .frames__wrapper__text {
+    text-indent: 2em;
+    padding: 5% 7.5%;
+  }
+  .navigation {
+    height: auto;
+    /*justify-content: space-around;*/
+    justify-content: center;
+  }
+  .language {
+    flex-direction: column;
+    padding: 0.5em;
+  }
+  .en, .ru {
+    margin: 0;
+  }
+  .menu__holder {
+    margin: 0 0.75%;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .en, .ru, .menu__holder__link {
+    font-size: 14px;
+  }
+  .frames__wrapper__text {
+    text-indent: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .en, .ru, .menu__holder__link {
+    font-size: 12px;
+  }
+  .frames__wrapper__big-text {
+    line-height: 0.85em;
+  }
+}
