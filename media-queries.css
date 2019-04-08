@@ -87,5 +87,6 @@
   }
   .frames__wrapper__big-text {
     line-height: 0.85em;
+    font-size: 40px;
   }
 }
