@@ -67,21 +67,24 @@
   .en, .ru {
     margin: 0;
   }
+  .menu {
+    margin-right: 0 auto;
+  }
   .menu__holder {
     margin: 0 0.75%;
   }
 }
 
-@media only screen and (max-width: 376px) {
+/* @media only screen and (max-width: 376px) {
   .en, .ru, .menu__holder__link {
     font-size: 14px;
   }
   .frames__wrapper__text {
     text-indent: 1.5em;
   }
-}
+} */
 
-@media only screen and (max-width: 321px) {
+/* @media only screen and (max-width: 321px) {
   .en, .ru, .menu__holder__link {
     font-size: 12px;
   }
@@ -90,4 +93,4 @@
     font-size: 40px;
     padding: 0 1vw;
   }
-}
+} */
