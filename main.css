@@ -107,7 +107,7 @@ body, html {
   display: flex;  
   align-items: center;  
   justify-content: center;  
-  flex-direction: row;
+  flex-direction: column;
 
   width: 100%;
   min-height: 100vh;
@@ -149,7 +149,7 @@ body, html {
   letter-spacing: 0.025em;
   word-spacing: 0.15em;
 /*   text-indent: 2.5em; */
-  text-align: center;
+/*   text-align: justify; */
   /*max-width: 850px;*/
   padding: 5% 10%;
 
