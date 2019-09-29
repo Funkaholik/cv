@@ -52,7 +52,8 @@
     padding: 15%;
   }
   .frames__wrapper__text {
-    text-indent: 2em;
+/*     text-indent: 2em; */
+    text-align: left;
     padding: 5% 7.5%;
   }
   .navigation {
