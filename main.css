@@ -157,10 +157,6 @@ body, html {
   align-items: center;  
   justify-content: center;
 }
-.frames__wrapper__text:first-line {
-  text-align: center;
-}
-
 .frames__wrapper__skill-holder {  
   display: flex;  
   align-items: center;  
